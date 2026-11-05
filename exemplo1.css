@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f172a;
+}
+
+.botao{
+    padding: 14px 30px;
+    border: navajowhite;
+    border-radius: 999px;
+    background-color: #00cc8f;
+    color: #01530d;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+    /* LINHA MÁGICA:display: DIGA QUAIS PROPRIEDADES TRANSICIONAM, TEMPO E A CURVA.*/
+    transition: transform 0.3 ease,/*movimento suave*/
+    box-shadow 0.3 ease;/*brilho acompanhado*/
+
+}
+
+.botao:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0, 204, 143, 0.45);
+}
