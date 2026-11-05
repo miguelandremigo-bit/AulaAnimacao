@@ -10,4 +10,11 @@ body{
     background-color: #0f172a;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    color: #f4f4f4;
+}
+
+a{
+    background-color: rgb(236, 176, 102);
+    text-decoration: none;
 }
