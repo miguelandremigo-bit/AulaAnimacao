@@ -1,0 +1,47 @@
+1-Transition x Keyframes
+Transition (Animação por estado)
+A transição ocorre quando algo muda de um estado para o outro
+
+.botao{
+background-color: blue;
+trasition: 0.5s ease;
+}
+
+.botão:houver{
+background-color:red;
+}
+
+Estado Inicial: azul;
+estado Final: vermelho;
+O navegador cria uma animação entre os dois estados
+
+Keyframes (animação autônoma)
+A animação acontece sozinha
+
+@keyframe{
+from{
+opacity:1;
+}
+to{
+opacity:0;
+}
+}
+
+.caixa{
+ animation:piscar 1s infinite;
+}
+
+2. A regra transition completa
+transition:propriedade duração curva
+
+ease
+-Começa devagar, acelera e termina devagar
+linear
+-velocidade constante
+ease-in
+-começa lento
+ease-out
+-termina lento
+ease-in-out
+-começa e termina lento
+
